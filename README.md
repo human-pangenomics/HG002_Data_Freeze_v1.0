@@ -133,7 +133,8 @@ EXP_REFINEFINAL1.cmap is the de novo assembly consensus genome map set
  
  
 ## HiC:
- 
+
+### HiC_1 
 ##### Files
  - HG002.HiC_1_S1_R1_001.fastq.gz
  - HG002.HiC_1_S1_R2_001.fastq.gz
@@ -171,6 +172,37 @@ The resulting bridge after proximity ligation will be (Ns being genomic DNA)
 5' NNNNGGTTCGTCCATCGATCCCAAGCAGGTAGNNNN 3'
 3' NNNNCCAAGCAGGTAGCTAGGGTTCGTCCATCNNNN 5'
  
+### HiC_2
+##### Files - 2x150bp Sequencing
+HG002.HiC_2_R1.fastq.gz
+HG002.HiC_2_R2.fastq.gz
+
+
+##### Files - 2x250bp Sequencing*
+HG002.HiC_2_NovaSeq_S2_L001_R1_001.fastq.gz
+HG002.HiC_2_NovaSeq_S2_L001_R2_001.fastq.gz
+
+*As of Jan 22 2020, only one dataset is available. Additional datasets will be made available within 1 week of the initial data freeze, in order to increase the total sequence depth of HiC_2 libraries to be equivalent with HiC_1 libraries.*
+
+
+##### Details
+These two sequencing libraries are generated from biological replicates (i.e. two independent cultures) HG002 lymphoblast cells obtained from Coriell (https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM24385&Product=CC). So the 2x150bp Sequencing library is prepared from Biological Replicate 1, while the 2x250bp library is prepared from Biological Replicate 2.
+
+They are HiC libraries generated using a procedure that deploys an specialized combination of restriction enzymes (RE), where the RE cut site distributions are optimized to produce uniform genomic coverage. The specific RE cut site motifs are: ^GATC, G^ANTC, C^TNAG, T^TAA. The â€œ^â€ is the cut site on the + DNA strand, and the â€™Nâ€™ can be any of the 4 genomic bases. Because of this, there are 10 possible RE cut sites.
+
+
+##### Alignment
+We align the HiC data using bwa mem with the -SP5M option.
+
+For example:
+bwa mem -SP5M index_path/hg38.fa Sample_R1.fastq Sample_R2.fastq
+
+A full mapping and data analysis pipeline for certain applications, such as identifying SNVs from HiC data, can be made available upon request.
+
+
+##### Other Analysis Considerations - Normalization
+The RE cut site distributions are optimized to produce uniform genomic coverage. For certain applications such as genome scaffolding, several open source tools (e.g. SALSA2) conduct data normalization based on RE cut site locations. We advise analyses groups to perform their analyses with normalization based on known information about RE cut sites locations AND without assuming a priori knowledge about RE cut site locations. For applications such as polishing, knowledge of RE cut site locations could help reducing errors (especially at chimeric junctions) to improve polishing accuracy. 
+
  
 ## Parents:
  
