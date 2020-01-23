@@ -9,7 +9,7 @@ Information about our consortium can be found at https://humanpangenome.org/ and
  
 The following data are available from the HG002 (NA24385) human cell line:
  
-·      PacBio HiFi:  High-coverage with recent chemistries (v2.0 Chem Insert sizes 15kb and 20kb, and access to earlier chemistry with Insert sizes 19 kb and 24kb)
+ PacBio HiFi:  High-coverage with recent chemistries (v2.0 Chem Insert sizes 15kb and 20kb, and access to earlier chemistry with Insert sizes 19 kb and 24kb)
  
 ·      PacBio CLR:  Continuous Long Reads (30 kb size selection), >60X fold coverage from 2 SMRT Cells, 1 SMRT Cell is 30X fold coverage (v1.0 Chem). 
  
