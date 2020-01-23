@@ -32,7 +32,7 @@ Citation:
  
 ## Sequencing Data
  
-The annotated table of sequence data can be downloaded here.
+The annotated table of sequence data can be downloaded [here](https://docs.google.com/spreadsheets/d/1eUXfyTqWVy9O3bYYyZdiEoWhnztUJXIf7u8X3UE-ryg/edit?usp=sharing).
 
 ## PacBio HiFi:
  
