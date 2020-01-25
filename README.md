@@ -63,20 +63,20 @@ Sequel II System with Chemistry 2.0
  - Run time        30 hrs per SMRT Cell 8M
  - CCS             "Circular Consensus Sequencing" analysis in SMRT Link v8.0
  - SRA             https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA586863
-    - 15 kb Library, ~36-fold coverage
-      - m64012_190920_173625
-      - m64012_190921_234837
-      - m64015_190920_185703
-      - m64015_190922_010918
-    20 kb Library, ~16-fold coverage
-        m64011_190830_220126
-        m64011_190901_095311
+ - 15 kb Library, ~36-fold coverage
+   - m64012_190920_173625
+   - m64012_190921_234837
+   - m64015_190920_185703
+   - m64015_190922_010918
+ - 20 kb Library, ~16-fold coverage
+   - m64011_190830_220126
+   - m64011_190901_095311
 
 Sequel II System with pre-2.0 Early Access Chemistry
-    Size selection  15 kb, 19 kb, or 25 kb selected on SageELF
-    Run time        30 hrs per SMRT Cell 8M
-    CCS             "Circular Consensus Sequencing" analysis in SMRT Link v8.0 pre-release
-    15 kb Library
+ - Size selection  15 kb, 19 kb, or 25 kb selected on SageELF
+ - Run time        30 hrs per SMRT Cell 8M
+ - CCS             "Circular Consensus Sequencing" analysis in SMRT Link v8.0 pre-release
+ - 15 kb Library
         m64002_190803_004553
         m64002_190804_135352
         m64004_190803_004451
