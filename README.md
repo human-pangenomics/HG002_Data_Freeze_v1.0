@@ -60,10 +60,10 @@ Last Updated:  January 24, 2020
 DNA samples were extracted from large homogenized growths of B-lymphoblastoid cell lines from the Coriell Institute for Medical Research and sheared to 20 kb with Megaruptor.  SMRTbell libraries were prepared and size-selected with SageELF to the targeted size (15 kb, 19 kb, 20 kb, or 25 kb).  Circular Consensus Sequence was generated in SMRT Link, and reads were filtered to 99% predicted accuracy (QV20).  Sample preparation, library preparation, sequencing,  and CCS analysis were performed at PacBio.
 
 Sequel II System with Chemistry 2.0
- - Size selection  15 kb or 20 kb selected on SageELF
- - Run time        30 hrs per SMRT Cell 8M
- - CCS             "Circular Consensus Sequencing" analysis in SMRT Link v8.0
- - SRA             https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA586863
+ - Size selection - 15 kb or 20 kb selected on SageELF
+ - Run time - 30 hrs per SMRT Cell 8M
+ - CCS - "Circular Consensus Sequencing" analysis in SMRT Link v8.0
+ - SRA - https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA586863
  - 15 kb Library, ~36-fold coverage
    - m64012_190920_173625
    - m64012_190921_234837
@@ -74,9 +74,9 @@ Sequel II System with Chemistry 2.0
    - m64011_190901_095311
 
 Sequel II System with pre-2.0 Early Access Chemistry
- - Size selection  15 kb, 19 kb, or 25 kb selected on SageELF
- - Run time        30 hrs per SMRT Cell 8M
- - CCS             "Circular Consensus Sequencing" analysis in SMRT Link v8.0 pre-release
+ - Size selection - 15 kb, 19 kb, or 25 kb selected on SageELF
+ - Run time - 30 hrs per SMRT Cell 8M
+ - CCS - "Circular Consensus Sequencing" analysis in SMRT Link v8.0 pre-release
  - 15 kb Library
    - m64002_190803_004553
    - m64002_190804_135352
@@ -89,10 +89,10 @@ Sequel II System with pre-2.0 Early Access Chemistry
    - m64011_190726_220327
 
 Sequel System with Chemistry 3.0
- - Size selection  15 kb selected on SageELF
- - Run time        24 hrs per SMRT Cell 1M
- - CCS             "Circular Consensus Sequencing" analysis in SMRT Link v6.0
- - SRA             https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA529679
+ - Size selection - 15 kb selected on SageELF
+ - Run time - 24 hrs per SMRT Cell 1M
+ - CCS - "Circular Consensus Sequencing" analysis in SMRT Link v6.0
+ - SRA - https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA529679
  - 15kb, ~28-fold coverage
    - m54238_180901_011437
    - m54238_180902_013549
@@ -179,35 +179,39 @@ other trademarks are the sole property of their respective owners.
 HG002 CLR data provided by the McDonnell Genome Institute at Washington University in St. Louis, Missouri, 
 
 SAMPLE
+
 HG002 extracted DNA from cells using Qiagen MagAttract Kit
 
 METHODS
-Shearing  60kb with Megaruptor
-Library prep   SMRTbell Express Template Prep 2.0
-Size selection  >40 kb with BluePippin
-Sequencing   Sequel System II with binding kit (101-842-900) and sequencing kit (101-820-200)
-SMRT Cells  SMRT Cell 8M Tray 101-389-001
-Run time  20 hrs per SMRT Cell
+
+ - Shearing - 60kb with Megaruptor
+ - Library prep - SMRTbell Express Template Prep 2.0
+ - Size selection - >40 kb with BluePippin
+ - Sequencing - Sequel System II with binding kit (101-842-900) and sequencing kit (101-820-200)
+ - SMRT Cells - SMRT Cell 8M Tray 101-389-001
+ - Run time - 20 hrs per SMRT Cell
 
 SMRT cell 'A01':
-Polymerase read bases 140,829,614,688
-Polymerase reads 5,606,947
-Polymerase read N50 42,922
-Subread Length (mean) 21,871
-Subread N50 37,116
-Insert length (mean) 22,072
-Insert N50 37,703
-Unique Molecular Yield: 123,059,829,616
+
+ - Polymerase read bases 140,829,614,688
+ - Polymerase reads 5,606,947
+ - Polymerase read N50 42,922
+ - Subread Length (mean) 21,871
+ - Subread N50 37,116
+ - Insert length (mean) 22,072
+ - Insert N50 37,703
+ - Unique Molecular Yield: 123,059,829,616
 
 SMRT cell 'C01':
-Polymerase read bases 159,869,879,629
-Polymerase reads 6,678,991
-Polymerase read N50 23,936
-Subread Length (mean) 20,549
-Subread N50 34,601
-Insert length (mean) 20,962
-Insert N50 35,428
-Unique Molecular Yield: 138,808,414,978
+
+ - Polymerase read bases 159,869,879,629
+ - Polymerase reads 6,678,991
+ - Polymerase read N50 23,936
+ - Subread Length (mean) 20,549
+ - Subread N50 34,601
+ - Insert length (mean) 20,962
+ - Insert N50 35,428
+ - Unique Molecular Yield: 138,808,414,978
 
 
 ## Oxford Nanopore: 
@@ -261,10 +265,14 @@ All samples were sequenced on the Illumina Xten at 2x150bp. The A/J trio was don
 Abstract: This study aims to explore the parameter space of 10x Linked-Read data for human diploid assembly and structural variant detection. The submission includes eight 10x Linked-Reads libraries, five for NA12878 and three for NA24385. These libraries with different parameters of Cf, Cr and MuFL.
 
 SRX5532186: 10x data for L5
+
 1 ILLUMINA (HiSeq X Ten) run: 1.1G spots, 321.4G bases, 146.7Gb downloads
+
 Design: 10x Linked-Read sequencing of NA24385 with Cf=208, WmuFL=267.4X
 1:56
+
 88.6 GB        SRR8739414_1.fastq.gz
+
 101.2 GB       SRR8739414_2.fastq.gz
 
 SRX5532189: 10x data for L4
