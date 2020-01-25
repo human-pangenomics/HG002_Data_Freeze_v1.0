@@ -435,7 +435,7 @@ The resulting bridge after proximity ligation will be (Ns being genomic DNA)
 ##### Details
 These two sequencing libraries are generated from biological replicates (i.e. two independent cultures) HG002 lymphoblast cells obtained from Coriell (https://www.coriell.org/0/Sections/Search/Sample_Detail.aspx?Ref=GM24385&Product=CC). So the 2x150bp Sequencing library is prepared from Biological Replicate 1, while the 2x250bp library is prepared from Biological Replicate 2.
 
-They are HiC libraries generated using a procedure that deploys an specialized combination of restriction enzymes (RE), where the RE cut site distributions are optimized to produce uniform genomic coverage. The specific RE cut site motifs are: ^GATC, G^ANTC, C^TNAG, T^TAA. The â€œ^â€ is the cut site on the + DNA strand, and the â€™Nâ€™ can be any of the 4 genomic bases. Because of this, there are 10 possible RE cut sites.
+They are HiC libraries generated using a procedure that deploys an specialized combination of restriction enzymes (RE), where the RE cut site distributions are optimized to produce uniform genomic coverage. The specific RE cut site motifs are: ^GATC, G^ANTC, C^TNAG, T^TAA. The "^" is the cut site on the + DNA strand, and the 'N' can be any of the 4 genomic bases. Because of this, there are 10 possible RE cut sites.
 
 ##### Alignment
 We align the HiC data using bwa mem with the -SP5M option.
