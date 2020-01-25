@@ -59,7 +59,7 @@ Last Updated:  January 24, 2020
 DNA samples were extracted from large homogenized growths of B-lymphoblastoid cell lines from the Coriell Institute for Medical Research and sheared to 20 kb with Megaruptor.  SMRTbell libraries were prepared and size-selected with SageELF to the targeted size (15 kb, 19 kb, 20 kb, or 25 kb).  Circular Consensus Sequence was generated in SMRT Link, and reads were filtered to 99% predicted accuracy (QV20).  Sample preparation, library preparation, sequencing,  and CCS analysis were performed at PacBio.
 
 Sequel II System with Chemistry 2.0
-    Size selection  15 kb or 20 kb selected on SageELF
+ + Size selection  15 kb or 20 kb selected on SageELF
     Run time        30 hrs per SMRT Cell 8M
     CCS             "Circular Consensus Sequencing" analysis in SMRT Link v8.0
     SRA             https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA586863
