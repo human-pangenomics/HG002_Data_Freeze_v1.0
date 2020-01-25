@@ -269,18 +269,19 @@ SRX5532186: 10x data for L5
 1 ILLUMINA (HiSeq X Ten) run: 1.1G spots, 321.4G bases, 146.7Gb downloads
 
 Design: 10x Linked-Read sequencing of NA24385 with Cf=208, WmuFL=267.4X
-1:56
 
-88.6 GB        SRR8739414_1.fastq.gz
+88.6 GB - SRR8739414_1.fastq.gz
 
-101.2 GB       SRR8739414_2.fastq.gz
+101.2 GB - SRR8739414_2.fastq.gz
 
 SRX5532189: 10x data for L4
+
 1 ILLUMINA (HiSeq X Ten) run: 1.2G spots, 373.7G bases, 154.3Gb downloads
+
 Design: 10x Linked-Read sequencing of NA24385 with Cf=1504, WmuFL=246.9X
 
-93.8 GB        SRR8739411_1.fastq.gz
-108.8 GB       SRR8739411_2.fastq.gz
+93.8 GB - SRR8739411_1.fastq.gz
+108.8 GB - SRR8739411_2.fastq.gz
 
 
 ## BioNano DLE: 
@@ -288,18 +289,24 @@ Design: 10x Linked-Read sequencing of NA24385 with Cf=1504, WmuFL=246.9X
 Data generation at BioNano Genomics in collaboration with Genome in a Bottle Consortium
 Technology: Bionano optical mapping
 
-Link to raw data: https://www.dropbox.com/sh/3u8n31yl6ipc9i3/AAAYndHkUuLzviTy3980CAFZa?dl=0
+Link to raw data: 
+
+https://www.dropbox.com/sh/3u8n31yl6ipc9i3/AAAYndHkUuLzviTy3980CAFZa?dl=0
 
 GM24385 DLE1:
 Data collected (Molecules >150 kbp): 317 Gbp 
 Read N50(Molecules >150 kbp): 323 kbp
 
 GM24149 DLE1:
+
 Data collected (Molecules >150 kbp): 249 Gbp 
+
 Read N50(Molecules >150 kbp): 383 kbp
 
 GM24143 DLE1:
+
 Data collected (Molecules >150 kbp): 316 Gbp 
+
 Read N50(Molecules >150 kbp): 332 kbp
 
 Software used for assembly: Bionano Solve3.2.1
@@ -360,6 +367,7 @@ Raw demultiplexed fastq files from the paired-end sequencing run (80bp read leng
 Strand-seq stat
 
 ===============
+
 Estimated depth of coverage for 83 selected libraries: 2.01x
 % of GRCh38 covered by at least one read in 83 selected libraries: 69.97%
 
@@ -373,12 +381,12 @@ Guidance for  processing are listed below:
 ### HiC.1
 
 ##### Files
-HG002.HiC_1_S1_R1_001.fastq.gz
-HG002.HiC_1_S1_R2_001.fastq.gz
-HG002.HiC_1_S2_R1_001.fastq.gz
-HG002.HiC_1_S2_R2_001.fastq.gz
-HG002.HiC_1_S3_R1_001.fastq.gz
-HG002.HiC_1_S3_R2_001.fastq.gz
+ - HG002.HiC_1_S1_R1_001.fastq.gz
+ - HG002.HiC_1_S1_R2_001.fastq.gz
+ - HG002.HiC_1_S2_R1_001.fastq.gz
+ - HG002.HiC_1_S2_R2_001.fastq.gz
+ - HG002.HiC_1_S3_R1_001.fastq.gz
+ - HG002.HiC_1_S3_R2_001.fastq.gz
 
 ##### Details
 These three sequencing libraries are triplicates made from one sample
@@ -402,23 +410,25 @@ The proximity-ligation procedure uses an adapter with a 3' overhang as
 template for the proximity ligation. The adapter sequence is as follow:
 
 5' GGTTCGTCCATCGATC 3'
+
 3' CCAAGCAGGTAG 5'
 
 The resulting bridge after proximity ligation will be (Ns being genomic DNA)
 
 5' NNNNGGTTCGTCCATCGATCCCAAGCAGGTAGNNNN 3'
+
 3' NNNNCCAAGCAGGTAGCTAGGGTTCGTCCATCNNNN 5'
 
 ### HiC.2
 
 ##### Files - 2x150bp Sequencing
-HG002.HiC_2_R1.fastq.gz
-HG002.HiC_2_R2.fastq.gz
+ - HG002.HiC_2_R1.fastq.gz
+ - HG002.HiC_2_R2.fastq.gz
 
 
 ##### Files - 2x250bp Sequencing*
-HG002.HiC_2_NovaSeq_S2_L001_R1_001.fastq.gz
-HG002.HiC_2_NovaSeq_S2_L001_R2_001.fastq.gz
+ - HG002.HiC_2_NovaSeq_S2_L001_R1_001.fastq.gz
+ - HG002.HiC_2_NovaSeq_S2_L001_R2_001.fastq.gz
 
  * As of Jan 22 2020, only one dataset is available. Additional datasets will be made available within 1 week of the initial data freeze, in order to increase the total sequence depth of HiC_2 libraries to be equivalent with HiC_1 libraries.
 
