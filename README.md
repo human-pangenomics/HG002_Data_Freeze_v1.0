@@ -54,6 +54,7 @@ _The annotated table of sequence data can be downloaded [here](https://docs.goog
 ## PacBio HiFi:
  
 README - PacBio HiFi reads of HG002, Ashkenazim Son
+
 Last Updated:  January 24, 2020
 
 DNA samples were extracted from large homogenized growths of B-lymphoblastoid cell lines from the Coriell Institute for Medical Research and sheared to 20 kb with Megaruptor.  SMRTbell libraries were prepared and size-selected with SageELF to the targeted size (15 kb, 19 kb, 20 kb, or 25 kb).  Circular Consensus Sequence was generated in SMRT Link, and reads were filtered to 99% predicted accuracy (QV20).  Sample preparation, library preparation, sequencing,  and CCS analysis were performed at PacBio.
@@ -150,6 +151,7 @@ other trademarks are the sole property of their respective owners.
 ## PacBio CLR: 
  
 README - PacBio CLR reads of HG002, Ashkenazim Son
+
 Last Updated:  January 24, 2020
 
 DNA samples were extracted from large homogenized growths of B-lymphoblastoid
@@ -206,6 +208,7 @@ Subread N50 34,601
 Insert length (mean) 20,962
 Insert N50 35,428
 Unique Molecular Yield: 138,808,414,978
+
 
 ## Oxford Nanopore: 
  
