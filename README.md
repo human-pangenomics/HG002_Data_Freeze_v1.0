@@ -48,9 +48,8 @@ Wenger, Aaron M., et al. "Accurate circular consensus long-read sequencing impro
 
 # Sequencing Data
  
-_*The annotated table of sequence data can be downloaded [here](https://docs.google.com/spreadsheets/d/1eUXfyTqWVy9O3bYYyZdiEoWhnztUJXIf7u8X3UE-ryg/edit?usp=sharing).*_
+_The annotated table of sequence data can be downloaded [here](https://docs.google.com/spreadsheets/d/1eUXfyTqWVy9O3bYYyZdiEoWhnztUJXIf7u8X3UE-ryg/edit?usp=sharing)._
 
-HERE
 
 ## PacBio HiFi:
  
@@ -65,10 +64,10 @@ Sequel II System with Chemistry 2.0
     CCS             "Circular Consensus Sequencing" analysis in SMRT Link v8.0
     SRA             https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA586863
     15 kb Library, ~36-fold coverage
-        m64012_190920_173625
-        m64012_190921_234837
-        m64015_190920_185703
-        m64015_190922_010918
+	m64012_190920_173625
+	m64012_190921_234837
+	m64015_190920_185703
+	m64015_190922_010918
     20 kb Library, ~16-fold coverage
         m64011_190830_220126
         m64011_190901_095311
