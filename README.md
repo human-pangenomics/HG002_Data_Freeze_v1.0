@@ -51,26 +51,26 @@ Wenger, Aaron M., et al. "Accurate circular consensus long-read sequencing impro
 _The annotated table of sequence data can be downloaded [here](https://docs.google.com/spreadsheets/d/1eUXfyTqWVy9O3bYYyZdiEoWhnztUJXIf7u8X3UE-ryg/edit?usp=sharing)._
 
 
-# HG002 Data Freeze (v1.0) Recommended downsampled data mix
+## HG002 Data Freeze (v1.0) Recommended downsampled data mix
 
 We encourage assembly groups to use as much of the data from the HG002 freeze as possible to get the best assembly they can. However, as no two groups are likely to use exactly the same subset of data, making comparison more difficult, and the size and variety of the HG002 freeze is not representative of what is likely to be available in future freezes, we recommend that assembly groups also run their pipeline on the following set of 4 downsampled datasets from the HG002 (NA24385) human cell line:
  
-### PacBio HiFi:  ~34X coverage of Sequel II System with Chemistry 2.0
+#### PacBio HiFi:  ~34X coverage of Sequel II System with Chemistry 2.0
  - 15kb: https://s3-us-west-2.amazonaws.com/human-pangenomics/HG002/hpp_HG002_NA24385_son_v1/PacBio_HiFi/15kb/m64012_190920_173625.Q20.fastq
  - 15kb: https://s3-us-west-2.amazonaws.com/human-pangenomics/HG002/hpp_HG002_NA24385_son_v1/PacBio_HiFi/15kb/m64012_190921_234837.Q20.fastq
  - 20kb: https://s3-us-west-2.amazonaws.com/human-pangenomics/HG002/hpp_HG002_NA24385_son_v1/PacBio_HiFi/20kb/m64011_190830_220126.Q20.fastq
  - 20kb: https://s3-us-west-2.amazonaws.com/human-pangenomics/HG002/hpp_HG002_NA24385_son_v1/PacBio_HiFi/20kb/m64011_190901_095311.Q20.fastq
 
-### Oxford Nanopore (Unsheared PromethION data):  Totaling 60x coverage of unsheared sequencing (3 PromethION Flow cells).  With a total of ~8x 100kb+ reads.
+#### Oxford Nanopore (Unsheared PromethION data):  Totaling 60x coverage of unsheared sequencing (3 PromethION Flow cells).  With a total of ~8x 100kb+ reads.
 
  - HG002 data (60x coverage, N50 ~44kb; from Shafin et al BioRxiv 2019): https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/standard_unsheared/
  - Oxford Nanopore (Ultra-long data) - Totaling ~15x coverage of 100kb+ reads GridION and ~45x coverage of 100kb+ reads PromethION data: https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/greater_than_100kb/
 
-### Hi-C:  Sequencing libraries represent two distinct protocols/optimized methods (labeled HiC.1 and HiC.2, from two anonymized companies) to reach "smooth-coverage", with access to high coverage Nova-Seq (250bp PE): Downsampled matched HiC_1 and HiC_2 data: 441,683,225 raw read-pairs, or ~69X coverage
+#### Hi-C:  Sequencing libraries represent two distinct protocols/optimized methods (labeled HiC.1 and HiC.2, from two anonymized companies) to reach "smooth-coverage", with access to high coverage Nova-Seq (250bp PE): Downsampled matched HiC_1 and HiC_2 data: 441,683,225 raw read-pairs, or ~69X coverage
 
  - https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/hic/downsampled/
 
-### Illumina: Whole-genome data, downsampled to ~33x PCR-free Illumina 150bp (HG002, HG003, and HG004) to match the expected production data available for the 1000 genome samples (produced at the NYGC: ~30x 150 bp PE Illumina reads from the 2054 1KG samples (using ~450bp fragment size))
+#### Illumina: Whole-genome data, downsampled to ~33x PCR-free Illumina 150bp (HG002, HG003, and HG004) to match the expected production data available for the 1000 genome samples (produced at the NYGC: ~30x 150 bp PE Illumina reads from the 2054 1KG samples (using ~450bp fragment size))
 
  - https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/ILMN/downsampled/
 
