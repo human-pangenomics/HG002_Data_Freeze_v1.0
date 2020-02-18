@@ -74,6 +74,8 @@ We encourage assembly groups to use as much of the data from the HG002 freeze as
 
  - https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/ILMN/downsampled/
 
+# Sequencing Data - whole dataset
+
 ## PacBio HiFi:
  
 README - PacBio HiFi reads of HG002, Ashkenazim Son
