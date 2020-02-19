@@ -74,9 +74,12 @@ Sequencing libraries represent two distinct protocols/optimized methods (labeled
  - https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/hic/downsampled/
 
 #### Illumina: 
-Whole-genome data, downsampled to ~33x PCR-free Illumina 250bp (HG002, HG003, and HG004) to match the expected production data available for the 1000 genome samples (produced at the NYGC: ~30x 150 bp PE Illumina reads from the 2504 1KG samples (using ~450bp fragment size)) 
 
- - https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/ILMN/downsampled/
+Whole-genome data, downsampled to ~30x PCR-free Illumina 150bp (HG002, HG003, and HG004) to match the expected production data available for the 1000 genome samples (produced at the NYGC: ~30x 150 bp PE Illumina reads from the 2504 1KG samples (using ~450bp fragment size))
+
+ - HG002: https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/ILMN/downsampled/
+ - HG003 and HG004: https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/parents/ILMN/downsampled/
+
 
 # Sequencing Data - whole dataset
 
