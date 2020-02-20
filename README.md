@@ -63,10 +63,11 @@ We encourage assembly groups to use as much of the data from the HG002 freeze as
  - 20kb: https://s3-us-west-2.amazonaws.com/human-pangenomics/HG002/hpp_HG002_NA24385_son_v1/PacBio_HiFi/20kb/m64011_190901_095311.Q20.fastq
 
 #### Oxford Nanopore (Unsheared PromethION data):  
-Totaling 60x coverage of unsheared sequencing (3 PromethION Flow cells).  With a total of ~8x 100kb+ reads.
+Standard production (60x coverage of unsheared sequencing from 3 PromethION flow cells, N50 ~44kb; from Shafin et al BioRxiv 2019)
+ - https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/standard_unsheared/
 
- - HG002 data (60x coverage, N50 ~44kb; from Shafin et al BioRxiv 2019): https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/standard_unsheared/
- - Oxford Nanopore (Ultra-long data) - Totaling ~15x coverage of 100kb+ reads GridION and ~45x coverage of 100kb+ reads PromethION data: https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/greater_than_100kb/
+Ultra-long data ( ~15x coverage of 100kb+ reads GridION and ~45x coverage of 100kb+ reads PromethION data)
+ - https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/greater_than_100kb/
 
 #### Hi-C:  
 Sequencing libraries represent two distinct protocols/optimized methods (labeled HiC.1 and HiC.2, from two anonymized companies) to reach "smooth-coverage", with access to high coverage Nova-Seq (250bp PE): Downsampled matched HiC_1 and HiC_2 data: 441,683,225 raw read-pairs, or ~69X coverage
