@@ -70,7 +70,8 @@ We encourage assembly groups to use as much of the data from the HG002 freeze as
 Standard production (60x coverage of unsheared sequencing from 3 PromethION flow cells, N50 ~44kb; from Shafin et al BioRxiv 2019)
  - https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/standard_unsheared/
 
-Ultra-long data ( ~15x coverage of 100kb+ reads GridION and ~45x coverage of 100kb+ reads PromethION data).  * Please note that 100kb+ reads are included from Standard production data.
+Ultra-long data ( ~15x coverage of 100kb+ reads GridION and ~45x coverage of 100kb+ reads PromethION data).
+* Please note that 100kb+ reads are included from Standard production data.
  - https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/greater_than_100kb/
 
 #### Hi-C:  
