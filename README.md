@@ -71,7 +71,8 @@ Standard production (60x coverage of unsheared sequencing from 3 PromethION flow
  - https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/standard_unsheared/
 
 Ultra-long data ( ~15x coverage of 100kb+ reads GridION and ~45x coverage of 100kb+ reads PromethION data).
-** Please note that 100kb+ reads are included from Standard production data.
+
+NOTE: The 100kb+ reads are included from Standard production data (File name: HG002_ucsc_Jan_2019_Guppy_3.4.4). That is, ultra-long data from the standard unsheared run are included in this file, and read names are expected to be redundant.
 
  - https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/greater_than_100kb/
 
