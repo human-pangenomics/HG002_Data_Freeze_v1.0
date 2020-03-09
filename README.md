@@ -13,7 +13,7 @@ The following data are available from the HG002 (NA24385) human cell line:
  - **PacBio HiFi**:  SMRTbell libraries were prepared and size-selected with
 SageELF to the targeted size (15 kb, 19 kb, 20 kb, or 25 kb), with Sequel II System with Chemistry 2.0, Sequel II System with pre-2.0 Early Access Chemistry, and Sequel System with Chemistry 3.0
  - **PacBio CLR**:  Continuous Long Reads (30 kb size selection), >60X fold coverage from 2 SMRT Cells, 1 SMRT Cell is 30X fold coverage (v1.0 Chem).
- - **Oxford Nanopore (Unsheared PromethION data)**:  Totaling 658x coverage of unsheared sequencing (28 PromethION Flow cells).  With a total of ~51x 100kb+ reads.
+ - **Oxford Nanopore (Unsheared PromethION data)**:  Totaling 658x coverage of unsheared sequencing (28 PromethION Flow cells).  With a total of ~51x 100kb+ reads. Please note redundancy as explained [here](https://github.com/human-pangenomics/HG002_Data_Freeze_v1.0#attention-to-redundancy).
  - **Oxford Nanopore (Ultra-long GridION data)**:  Totaling ~52x coverage of unsheared sequencing (106 MinION Flow cells).  With a total of ~15x 100kb+ reads.
  - **Hi-C**:  Sequencing libraries represent two distinct protocols/optimized methods (labeled HiC.1 and HiC.2, from two anonymized companies) to reach "smooth-coverage", with access to high coverage Nova-Seq (250bp PE).
  - **Strand-seq**: Strand-specific libraries were generated in collaboration with Jan Korbel’s laboratory (EMBL, Heidelberg). These data represent 192 barcoded single-cell libraries.
