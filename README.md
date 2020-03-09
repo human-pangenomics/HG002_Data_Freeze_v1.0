@@ -256,6 +256,20 @@ SMRT cell 'C01':
 
 ## Oxford Nanopore: 
  
+### Attention to redundancy 
+
+ - Please note that UCSC standard unsheared data from January 2019 are present in two directories:
+
+   - Guppy 3.4.4: https://s3-us-west-2.amazonaws.com/human-pangenomics/HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/standard_unsheared/HG002_ucsc_Jan_2019_Guppy_3.4.4.fastq.gz
+   - Guppy 3.0.5: https://s3-us-west-2.amazonaws.com/human-pangenomics/HG002/hpp_HG002_NA24385_son_v1/nanopore/HG002_ucsc_Jan_2019_Guppy_3.0.fastq.gz
+
+ - 100 kb+ read data: the 100 kb+ reads included in the data include reads from all datasets 
+
+   - https://s3-us-west-2.amazonaws.com/human-pangenomics/HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/greater_than_100kb/HG002_giab_ULfastqs_guppy3.2.4_lt100kb.fastq.gz
+   - https://s3-us-west-2.amazonaws.com/human-pangenomics/HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/greater_than_100kb/HG002_ucsc_ONT_lt100kb.fastq.gz
+
+We advise you to note that there will be redundancy in read id's if you use data both from the main directory (https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/nanopore/) and downsampled directory (https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/).
+
 ### GIAB UL data
 
 GIAB UL dataset (HG002_giab_ULfastqs_guppy3.2.4.fastq.gz) was generated using RAD004 sequencing chemistry on a GridION. 
