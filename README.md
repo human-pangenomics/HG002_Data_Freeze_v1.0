@@ -512,11 +512,11 @@ The RE cut site distributions are optimized to produce uniform genomic coverage.
  | Nanopore-PromethION | UCSC | ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/HG003_NA24149_father/UCSC_Ultralong_OxfordNanopore_Promethion/ |
  | PacBio CLR | GIAB | ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/HG003_NA24149_father/PacBio_MtSinai_NIST/ |
  | 10XG | GIAB | ftp://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/AshkenazimTrio/HG003_NA24149_father/10Xgenomics_ChromiumGenome/NA24149.fastqs/ |
- | Bionano DLS | GIAB | https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG003/BNG/ |
+ | Bionano DLS | GIAB | https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=NHGRI_UCSC_panel/HG003/BNG/ |
  | 300x PCR-free Illumina 150bp + 40x PCR-free 250bp | GIAB | ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/HG003_NA24149_father/NIST_Illumina_2x250bps/ |
  | 6kb mate-pair | GIAB | ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/HG003_NA24149_father/NIST_Stanford_Illumina_6kb_matepair/ |
- | PacBio HiFi | Google + HudsonAlpha + GIAB | https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG003/PacBio_HiFi/ |
- | HiC | UCSC | https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG003/hic/ | 
+ | PacBio HiFi | Google + HudsonAlpha + GIAB | https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=NHGRI_UCSC_panel/HG003/PacBio_HiFi/ |
+ | HiC | UCSC | https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=NHGRI_UCSC_panel/HG003/hic/ | 
 
 ### Mother	HG004	NA24143
  
@@ -525,10 +525,10 @@ The RE cut site distributions are optimized to produce uniform genomic coverage.
  | Nanopore-PromethION | UCSC | ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/HG004_NA24143_mother/UCSC_Ultralong_OxfordNanopore_Promethion/ |
  | PacBio CLR | GIAB | ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/HG004_NA24143_mother/PacBio_MtSinai_NIST/ |
  | 10XG | GIAB | ftp://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/AshkenazimTrio/HG004_NA24143_mother/10Xgenomics_ChromiumGenome/NA24143.fastqs/ |
- | Bionano DLS | GIAB | https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG004/BNG/ |
+ | Bionano DLS | GIAB | https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=NHGRI_UCSC_panel/HG004/BNG/ |
  | 300x PCR-free Illumina 150bp + 40x PCR-free 250bp | GIAB | ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/HG004_NA24143_mother/NIST_Illumina_2x250bps/ | 
  | 6kb mate-pair | GIAB | ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/HG004_NA24143_mother/NIST_Stanford_Illumina_6kb_matepair/ |
- | PacBio HiFi | Google + HudsonAlpha + GIAB | https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG004/PacBio_HiFi/ |
- | HiC | UCSC | https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG004/hic/ |
+ | PacBio HiFi | Google + HudsonAlpha + GIAB | https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=NHGRI_UCSC_panel/HG004/PacBio_HiFi/ |
+ | HiC | UCSC | https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=NHGRI_UCSC_panel/HG004/hic/ |
 
 
