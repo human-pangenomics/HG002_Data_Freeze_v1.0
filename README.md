@@ -21,10 +21,10 @@ SageELF to the targeted size (15 kb, 19 kb, 20 kb, or 25 kb), with Sequel II Sys
  - **BioNano Maps** DLE1 Data collected (Molecules >150 kbp): 317 Gbp Read N50(Molecules >150 kbp): 323 kbp provided by BioNano Genomics and Genome in a Bottle (GIAB) Consortium
  - **Illumina**:  Whole genome data, 300x PCR-free Illumina 150bp + 40x PCR-free 250bp, from GIAB
  
-All HG002 data (and links to parental data) are posted at the following Amazon AWS public dataset: [human-pangenomics](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/).
+All HG002 data (and links to parental data) are posted at the following Amazon AWS public dataset: [human-pangenomics](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=NHGRI_UCSC_panel/HG002/hpp_HG002_NA24385_son_v1/).
 
 
-In addition, we will host links to the following parental data: PacBio (HiFi and CLR), Nanopore-PromethION unsheared, BioNano maps, 10XG, and Illumina data (300x PCR-free and 6kb mate-pair sequencing), and HiC for both Father (HG003, NA24149) and Mother (HG004, NA24143). With links provided below: [https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/parents/](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/parents/)
+In addition, we will host links to the following parental data: PacBio (HiFi and CLR), Nanopore-PromethION unsheared, BioNano maps, 10XG, and Illumina data (300x PCR-free and 6kb mate-pair sequencing), and HiC for both Father (HG003, NA24149) and Mother (HG004, NA24143). With links provided below: [https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=NHGRI_UCSC_panel/HG002/hpp_HG002_NA24385_son_v1/parents/](https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=NHGRI_UCSC_panel/HG002/hpp_HG002_NA24385_son_v1/parents/)
 
 Please contact  Karen Miga (khmiga@soe.ucsc.edu) or Miten Jain (miten@soe.ucsc.edu) if you need any additional information or assistance.
 
@@ -68,25 +68,25 @@ We encourage assembly groups to use as much of the data from the HG002 freeze as
 
 #### Oxford Nanopore (Unsheared PromethION data):  
 Standard production (60x coverage of unsheared sequencing from 3 PromethION flow cells, N50 ~44kb; from Shafin et al BioRxiv 2019)
- - https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/standard_unsheared/
+ - https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=NHGRI_UCSC_panel/HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/standard_unsheared/
 
 Ultra-long data ( ~15x coverage of 100kb+ reads GridION and ~45x coverage of 100kb+ reads PromethION data).
 
 NOTE: The 100kb+ reads are included from Standard production data (File name: HG002_ucsc_Jan_2019_Guppy_3.4.4). That is, ultra-long data from the standard unsheared run are included in this file, and read names are expected to be redundant.
 
- - https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/greater_than_100kb/
+ - https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=NHGRI_UCSC_panel/HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/greater_than_100kb/
 
 #### Hi-C:  
 Sequencing libraries represent two distinct protocols/optimized methods (labeled HiC.1 and HiC.2, from two anonymized companies) to reach "smooth-coverage", with access to high coverage Nova-Seq (250bp PE): Downsampled matched HiC_1 and HiC_2 data: 441,683,225 raw read-pairs, or ~69X coverage
 
- - https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/hic/downsampled/
+ - https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=NHGRI_UCSC_panel/HG002/hpp_HG002_NA24385_son_v1/hic/downsampled/
 
 #### Illumina: 
 
 Whole-genome data, downsampled to ~30x PCR-free Illumina 150bp (HG002, HG003, and HG004) to match the expected production data available for the 1000 genome samples (produced at the NYGC: ~30x 150 bp PE Illumina reads from the 2504 1KG samples (using ~450bp fragment size))
 
- - HG002: https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/ILMN/downsampled/
- - HG003 and HG004: https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/parents/ILMN/downsampled/
+ - HG002: https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=NHGRI_UCSC_panel/HG002/hpp_HG002_NA24385_son_v1/ILMN/downsampled/
+ - HG003 and HG004: https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=NHGRI_UCSC_panel/HG002/hpp_HG002_NA24385_son_v1/parents/ILMN/downsampled/
 
 
 # Sequencing Data - whole dataset
@@ -268,7 +268,7 @@ SMRT cell 'C01':
    - https://s3-us-west-2.amazonaws.com/human-pangenomics/NHGRI_UCSC_panel/HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/greater_than_100kb/HG002_giab_ULfastqs_guppy3.2.4_lt100kb.fastq.gz
    - https://s3-us-west-2.amazonaws.com/human-pangenomics/NHGRI_UCSC_panel/HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/greater_than_100kb/HG002_ucsc_ONT_lt100kb.fastq.gz
 
-We advise you to note that there will be redundancy in read id's if you use data both from the main directory (https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/nanopore/) and downsampled directory (https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/).
+We advise you to note that there will be redundancy in read id's if you use data both from the main directory (https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=NHGRI_UCSC_panel/HG002/hpp_HG002_NA24385_son_v1/nanopore/) and downsampled directory (https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=NHGRI_UCSC_panel/HG002/hpp_HG002_NA24385_son_v1/nanopore/downsampled/).
 
 ### GIAB UL data
 
@@ -417,7 +417,7 @@ Strand-seq data produced, sequenced and processed by Ashley D. Sanders and Jan O
 
 Strand-specific libaries were generated as described in Sanders et al. Nat Protoc. 2017 and sequenced on a NextSeq Illumina platform. 192 barcoded single-cell libraries were pooled for sequencing of HG002 sample.  
 
-Raw demultiplexed fastq files from the paired-end sequencing run (80bp read length) were uploaded for each single cell library. These data can be found at https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=HG002/hpp_HG002_NA24385_son_v1/Strand_seq/.
+Raw demultiplexed fastq files from the paired-end sequencing run (80bp read length) were uploaded for each single cell library. These data can be found at https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=NHGRI_UCSC_panel/HG002/hpp_HG002_NA24385_son_v1/Strand_seq/.
 Strand-seq stat
 
 ===============
